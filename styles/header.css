@@ -1,0 +1,124 @@
+.header {
+    height:55px;
+    border-width: 0px;
+    border-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.hamburger-menu {
+    height:24px;
+    margin-left: 24px;
+    margin-right:20px;
+}
+
+.youtube-logo {
+    height:20px;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    margin-right:50px;
+    margin-left:70px;
+    max-width:500px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 3;
+    width: 0px;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-color: rgb(192 192 192);
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0 ,0, 0, 0.05);
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 36px;
+    width:60px;
+    margin-left: -1px;
+    margin-right: 10px;
+    align-items:center;
+}
+
+.search-icon {
+    margin-top:4px;
+    height:25px;
+    border-color: rgb(240 240 240);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.voice-search-button {
+    background-color: rgb(245 245 245);
+    height: 36px;
+    width: 36px;
+    border-radius: 200px;
+    border-width: 0px;
+    align-items: center;
+}
+
+.voice-search-icon {
+    margin-top: 4px;
+    height:25px;
+    object-fit:contain;
+}
+
+.right-section {
+    display:flex;
+    flex: 1;
+    width: 180px;
+    margin-right:24px;
+    justify-content: right;
+    align-items: center;
+}
+
+.upload-button,
+.youtube-apps,
+.notifications-button {
+    height: 36px;
+    width: 36px;
+    border-radius: 200px;
+    border-width: 0px;
+    align-items: center;
+}
+
+.upload-icon,
+.youtube-apps-icons,
+.notifications-icon {
+    margin-top: 4px;
+    height:25px;
+    object-fit:contain;
+}
+
+.account-picture {
+    height:36px;
+    width:36px;
+    border-width:0px;
+    border-style:none;
+    border-radius: 200px
+}
+
+.upload-button,
+.youtube-apps,
+.notifications-button {
+    margin-right: 14px;
+    background-color: transparent;
+}

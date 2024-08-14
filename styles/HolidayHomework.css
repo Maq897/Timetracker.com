@@ -1,0 +1,49 @@
+.Links {
+    display:flex;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
+    columns: 50px;
+}
+
+
+.Logo {
+    width: 40px;
+    height: 40px;
+    border-style:none;
+    border-width:0px;
+    border-radius: 20px;
+
+}
+
+.link1 {
+    text-decoration: none; 
+    color:black;
+}
+
+
+
+button {
+    height: 90px;
+    background-color: transparent;
+    border-width: 0px;
+    border-style: none;
+    border-color: none;
+    border-radius: 2px;
+    color: white;
+    align-items:center;
+}
+
+button:hover {
+    background-color: aliceblue;
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+}
+
+.Name-Logo {
+    color: black;
+    display:inline-block;
+    
+}
